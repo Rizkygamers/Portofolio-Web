@@ -1,0 +1,8 @@
+body {
+	height: 1800px;
+}
+
+.jumbotron {
+	background: lightblue;
+	padding: 6rem;;
+}
