@@ -4,5 +4,17 @@ body {
 
 .jumbotron {
 	background: lightblue;
-	padding: 6rem;;
+	padding: 6rem;
+	    position: relative;
+    overflow: hidden;
 }
+
+  #particles-js {
+    top: 0;
+    left: 0;
+  }
+  
+  .jumbotron {
+    position: relative;
+    overflow: hidden;
+  }
