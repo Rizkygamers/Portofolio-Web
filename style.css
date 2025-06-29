@@ -14,28 +14,3 @@ body {
     left: 0;
   }
   
-  #loader {
-  position: fixed;
-  z-index: 9999;
-  background: #fff;
-  width: 100vw;
-  height: 100vh;
-  top: 0; left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity 0.5s;
-}
-
-.spinner {
-  border: 8px solid #eee;
-  border-top: 8px solid #3498db;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  animation: spin 1s linear infinite;
-}
-@keyframes spin {
-  0% { transform: rotate(0deg);}
-  100% { transform: rotate(360deg);}
-}
